@@ -25,8 +25,8 @@
         <header>
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">
-                        <img src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Bootstrap" width="30" height="24">
+                    <a class="navbar-brand logo" href="#">
+                        <img class="img-fluid " src="./assets/klassy-logo.png" alt="Bootstrap" width="30" height="24">
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
@@ -63,7 +63,7 @@
 
         <!-- Home left box and right carousel -->
         <section id="home">
-            <div class="home-container row">
+            <div class="home-container row" style="width: 100%;">
                 <div class="left-container col-lg-4">
                     <div class="home-left">
                         <div class="inner-content text-center">
@@ -105,7 +105,7 @@
 
         <!-- about and video -->
         <section id="about">
-            <div class="container">
+            <div class="container about-container" style="width: 100%;">
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="abt-heading">
@@ -141,7 +141,7 @@
 
         <!-- menu - title & owl carousel -->
         <section id="menu">
-            <div class="container">
+            <div class="container" style="width: 100%;">
                 <div class="menu-container container ">
                     <div class="menu-heading ">
                         <p><span>OUR MENU </span><br><strong> Our Selection of Food with Quality taste</strong></p>
@@ -297,7 +297,7 @@
         </section>
 
         <!-- Gallery -->
-        <section id="gallery">
+        <section id="gallery" style="width: 100%;">
             <div class="container">
                 <div class="gallery-heading text-center">
                     <h3>OUR BEST MENUS</h3>
@@ -323,13 +323,13 @@
 
         <!-- contact details -->
         <section id="contact">
-            <div class="contact-section">
-                <div class="container">
-                    <div class="row">
+            <div class="contact-section" style="width: 100%;">
+                <div class="container m-5 p-5">
+                    <div class="row ">
                         <div class="col-lg-6">
                             <div class="left-contact">
                                 <div class="contact-heading">
-                                    <h4>Contact Us</h4>
+                                    <h4>___Contact Us</h4>
                                     <p>Here You Can Make A Reservation Or Just walkin to our restaurant</p>
                                 </div>
                                 <p>PALAARAM PARAVUR : St. Germain's road, North Paravur, Pincode 683513. <br>
@@ -337,30 +337,106 @@
                                     PALAARAM KADAVANTHRA : Jawahar Nagar, Kadavanthra, Pincode 682020.</p>
                                 <div class="row">
                                     <div class="col-lg-6">
-                                        <div class="first-contact-box">
-                                            <p>Palaaram Paravur
-                                                9846011253/0484 2441253
-                                                Palaaram Kakkanad
-                                                9846575059/0484 2575059
-                                                Palaaram Kadavanthra
-                                                9846020520/0484 2203310</p>
+                                        <div class="phone text-center ">
+                                            <div class="call-icon"> <i class="fa-solid fa-phone "
+                                                    style="color: #ffffff;"></i>
+                                            </div>
+                                            <p class=""><span>Palaaram Paravur</span>
+                                                <span>9846011253/0484 2441253</span>
+                                                <span>Palaaram Kakkanad</span>
+                                                <span>9846575059/0484 2575059</span>
+                                                <span>Palaaram Kadavanthra</span>
+                                                <span>9846020520/0484 2203310</span>
+
+                                            </p>
+
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
-                                        <div class="sec-contact-box">
-                                            <p>Emails
+                                        <div class="mail text-center">
+                                            <div class="mail-icon"><i class="fa-solid fa-envelope"
+                                                    style="color: #ffffff;"></i></div>
+                                            <p class="pb-5"><span>Email</span> <br>
                                                 palaaram@gmail.com</p>
+
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6"></div>
+                        <div class="col-lg-6">
+                            <div class="container-fluid reservation  me-5">
+                                <h2 class="text-center">Table Reservation</h2>
+                                <form action="">
+                                    <div class="row">
+                                        <div class="col-lg-6 " id="name-ip">
+                                            <input id="form-ip" type="text" placeholder="Your Name*">
+                                        </div>
+                                        <div class="col-lg-6 " id=""> <input id="form-ip" type="text"
+                                                placeholder="Your Email Address">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-6"><input id="form-ip" type="tel" placeholder="Phone Number">
+                                        </div>
+                                        <div class="col-lg-6"><input id="form-ip" type="number"
+                                                placeholder="No Of Guests"></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-6"><input id="form-ip" type="date" placeholder="dd/mm/yyyy">
+                                        </div>
+                                        <div class="col-lg-6"><input id="form-ip" type="time" placeholder="Time"></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <input id="msg" type="text" placeholder="Message">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col"><button id="reserve-btn" class="btn text-center"
+                                                type="submit">Make Reservation</button>
+                                        </div>
+                                    </div>
+                                    <br> <br>
+                                </form>
+
+                            </div>
+                        </div>
                     </div>
 
                 </div>
             </div>
         </section>
+        <section>
+            <div class="blank">
+                <!-- white space -->
+            </div>
+        </section>
+        <footer>
+            <div class="container">
+                <div class="row footer-items">
+                    <div class="col-lg-4 ">
+                        <div class="social">
+                            <ul class="social-icons">
+                                <li> <i class="fa-brands fa-facebook" style="color: #c10606;"></i>
+                                </li>
+                                <li> <i class="fa-brands fa-twitter" style="color: #9c0707;"></i>
+                                </li>
+                                <li> <i class="fa-brands fa-instagram" style="color: #a61c0c;"></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="logo"> <img class="img-fluid" src="./assets/klassy-logo.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        @ copyright palaaram
+                    </div>
+                </div>
+            </div>
+        </footer>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
