@@ -1,31 +1,67 @@
+
+
 body {
     margin: 0px;
     padding: 0px;
-    width: 100vw;
+    width: 100%;
+    background-color: #fb5849;
 }
 
 .logo img{
-width: 150px;
+width: 140px;
 margin-left: 80px;
 }
+.navbar li a {
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
 
 .left-container {
-    width: fit-content;
+    width: 100%;
+    background-image: url('./assets/top-left-bg.jpg');
+    background-repeat:unset;
+
 
 }
 
+.inner-content h1{
+    font-family: 'Dancing Script', cursive;
+}
+.carousel-item {
+    height: 100%;
+    /* overflow: hidden;
+    position: relative; */
+}
+.carousel-item img{
+    height:45em;
+}
+@media (max-width:768px){
+    .carousel-item img{
+        height:28em;
+        width: 100%;
+    }
+}
+
+
+
 .home-left {
-    background-image: url('./assets/top-left-bg.jpg');
+    /* background-image: url('./assets/top-left-bg.jpg'); */
     height: 100%;
     padding: 150px;
     margin: 0px;
     width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;   
 }
 
 @media screen and (max-width:425px) {
     .home-left {
         padding: 100px;
-        width: fit-content;
+        width: 100%;
     }
 }
 
@@ -36,13 +72,89 @@ margin-left: 80px;
 
     }
 }
+.carousel-control-prev-icon,.carousel-control-next-icon{
+    background-color: #fb5849;
+    border-radius: 50%;
+}
+.carousel-item img{
+   object-fit: cover;
+}
 
+.abt-video  .play-btn{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
 .play-btn {
+    position: relative;
+    margin: auto;
+    bottom: 12rem;
+    /* left: 260px; */
+    font-size: 35px;
+}
+
+/* .play-btn {
     position: relative;
     margin: auto;
     bottom: 250px;
     left: 260px;
     font-size: 35px;
+}
+@media screen and (max-width:1024px){
+    .play-btn {
+        position: relative;
+        margin: auto;
+        bottom: -50%;
+        left: -50%;
+        
+        font-size: 35px;
+    }
+}
+@media screen and (max-width:768px){
+    .play-btn {
+        position: relative;
+        margin: auto;
+        bottom: 195px;
+        left: 44%;
+       
+        font-size: 35px;
+    }
+}
+@media screen and (max-width:425px){
+    .play-btn {
+        position: relative;
+        margin: auto;
+        bottom: 165px;
+        left: 45%;
+        font-size: 35px;
+    }
+}
+@media screen and (max-width:375px){
+    .play-btn {
+        position: relative;
+        margin: auto;
+        bottom: 120px;
+        left: 56%;
+        font-size: 35px;
+    }
+}
+@media screen and (max-width:320px){
+    .play-btn {
+        position: relative;
+        margin: auto;
+        bottom: 144px;
+        left: 45%;
+        font-size: 35px;
+    }
+} */
+@media screen and (max-width:320px){
+    .play-btn {
+        position: relative;
+        margin: auto;
+        bottom: 5rem;
+        /* left: 45%; */
+        font-size: 35px;
+    }
 }
  .play-btn-icon {
 background-color: aliceblue;
@@ -73,6 +185,10 @@ border-radius: 50%;
     color: black;
     text-align: center;
 }
+.order-now:hover{
+    bottom: 20px;
+    transition:0.5s ease-in;
+}
 .card img{
 height: 100%;
 }
@@ -85,6 +201,13 @@ height: 100%;
 .gal-img{
     width: 100%;
     height: 100%;
+    -webkit-filter: brightness(100%);
+}
+.gal-img:hover{
+
+-webkit-filter: brightness(40%);
+
+
 }
 
 .contact-section{
@@ -162,34 +285,26 @@ height: 100%;
     border-radius: 5px;
     padding: 0px;
 }
-#form-ip{
+.form-ip{
     border-radius: 5px;
     height: 37px;
-    /* width: 230px; */
-    width: auto;
+    width: 90%;
     margin: 10px;
 }
 #msg{
     margin: 10px;
     height: 168px;
-    /* width: 530px; */
-    width: auto;
+    width: 90%;
     border-radius: 5px;
 }
 #reserve-btn{
     margin-left:10px;
     margin-right: 15px;
-    /* width: 92%; */
-    width: auto;
-
+    width:90%;
     background-color: #fb5849;
 }
 
-@media screen and (max-width:768px){
-    #msg{
-        width: auto;
-    }
-}
+
 
 .blank{
     width: 100%;
@@ -199,8 +314,11 @@ footer{
     width: 100%;
     
 }
-.footer-items{
-    align-items: center;
+.footer-items .col-lg-4{
+   display: flex;
+   justify-content: center;
+   /* align-items: center; */
+   /* text-align: center; */
 }
 .social-icons{
     display: inline-block;
@@ -210,6 +328,9 @@ footer{
     list-style: none;
     align-items: center;
 }
+
+
+
 
 
 
