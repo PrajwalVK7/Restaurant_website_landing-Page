@@ -1,5 +1,3 @@
-
-
 body {
     margin: 0px;
     padding: 0px;
@@ -7,10 +5,11 @@ body {
     background-color: #fb5849;
 }
 
-.logo img{
-width: 140px;
-margin-left: 80px;
+.logo img {
+    width: 140px;
+    margin-left: 80px;
 }
+
 .navbar li a {
     font-weight: 600;
     font-size: 18px;
@@ -21,25 +20,28 @@ margin-left: 80px;
 .left-container {
     width: 100%;
     background-image: url('./assets/top-left-bg.jpg');
-    background-repeat:unset;
+    background-repeat: unset;
 
 
 }
 
-.inner-content h1{
+.inner-content h1 {
     font-family: 'Dancing Script', cursive;
 }
+
 .carousel-item {
     height: 100%;
     /* overflow: hidden;
     position: relative; */
 }
-.carousel-item img{
-    height:45em;
+
+.carousel-item img {
+    height: 45em;
 }
-@media (max-width:768px){
-    .carousel-item img{
-        height:28em;
+
+@media (max-width:768px) {
+    .carousel-item img {
+        height: 28em;
         width: 100%;
     }
 }
@@ -55,7 +57,7 @@ margin-left: 80px;
     display: flex;
     text-align: center;
     justify-content: center;
-    align-items: center;   
+    align-items: center;
 }
 
 @media screen and (max-width:425px) {
@@ -72,19 +74,23 @@ margin-left: 80px;
 
     }
 }
-.carousel-control-prev-icon,.carousel-control-next-icon{
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
     background-color: #fb5849;
     border-radius: 50%;
 }
-.carousel-item img{
-   object-fit: cover;
+
+.carousel-item img {
+    object-fit: cover;
 }
 
-.abt-video  .play-btn{
+.abt-video .play-btn {
     display: flex;
     justify-content: center;
     text-decoration: none;
 }
+
 .play-btn {
     position: relative;
     margin: auto;
@@ -147,7 +153,7 @@ margin-left: 80px;
         font-size: 35px;
     }
 } */
-@media screen and (max-width:320px){
+@media screen and (max-width:320px) {
     .play-btn {
         position: relative;
         margin: auto;
@@ -156,15 +162,17 @@ margin-left: 80px;
         font-size: 35px;
     }
 }
- .play-btn-icon {
-background-color: aliceblue;
-border-radius: 50%;
+
+.play-btn-icon {
+    background-color: aliceblue;
+    border-radius: 50%;
 }
 
-.owl-dots{
+.owl-dots {
     display: none;
 }
-.price{
+
+.price {
     background-color: red;
     position: absolute;
     left: 0;
@@ -172,7 +180,8 @@ border-radius: 50%;
     height: 65px;
     width: 80px;
 }
-.order-now{
+
+.order-now {
     background-color: red;
     position: absolute;
     bottom: 0;
@@ -180,48 +189,55 @@ border-radius: 50%;
     height: 100px;
 
 }
-.order-now a{
+
+.order-now a {
     text-decoration: none;
     color: black;
     text-align: center;
 }
-.order-now:hover{
+
+.order-now:hover {
     bottom: 20px;
-    transition:0.5s ease-in;
+    transition: 0.5s ease-in;
 }
-.card img{
-height: 100%;
+
+.card img {
+    height: 100%;
 }
-.item .card{
+
+.item .card {
     height: 300px;
 }
 
 
 
-.gal-img{
+.gal-img {
     width: 100%;
     height: 100%;
     -webkit-filter: brightness(100%);
 }
-.gal-img:hover{
 
--webkit-filter: brightness(40%);
+.gal-img:hover {
+
+    -webkit-filter: brightness(40%);
 
 
 }
 
-.contact-section{
+.contact-section {
     background-image: url('./assets/reservation-bg.jpg');
     margin-top: 50px;
     color: white;
     width: fit-content;
     height: auto;
 }
-.contact-heading p{
+
+.contact-heading p {
     font-weight: 700;
     font-size: 30px;
 }
-.phone{
+
+.phone {
     height: 250px;
     width: 230px;
     background-color: white;
@@ -231,12 +247,13 @@ height: 100%;
     margin: 10px;
 
 }
-.call-icon{
+
+.call-icon {
     background-color: red;
     height: 50px;
     width: 50px;
     position: relative;
-    left:auto;
+    left: auto;
     right: auto;
     top: -30px;
     display: inline-block;
@@ -244,30 +261,33 @@ height: 100%;
     text-align: center;
     border-radius: 50%;
     padding: 0;
-    
+
 }
-.call-icon i{
-    margin: 15px;
-}
-.mail-icon{
-    background-color: red;
-    height: 50px;
-    width: 50px;
-    position: relative;
-    left:auto;
-    right: auto;
-    top: -30px;
-    display: inline-block;
-    align-items: center;
-    text-align: center;
-    border-radius: 50%;
-    padding: 0;
-}
-.mail-icon i{
+
+.call-icon i {
     margin: 15px;
 }
 
-.mail{
+.mail-icon {
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    left: auto;
+    right: auto;
+    top: -30px;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    border-radius: 50%;
+    padding: 0;
+}
+
+.mail-icon i {
+    margin: 15px;
+}
+
+.mail {
     height: 120px;
     width: 230px;
     background-color: white;
@@ -275,52 +295,59 @@ height: 100%;
     border-radius: 5px;
     margin: 10px;
 }
-.mail p{
+
+.mail p {
     padding-bottom: 10px;
 }
 
-.reservation{
+.reservation {
     background-color: white;
     color: black;
     border-radius: 5px;
     padding: 0px;
 }
-.form-ip{
+
+.form-ip {
     border-radius: 5px;
     height: 37px;
     width: 90%;
     margin: 10px;
 }
-#msg{
+
+#msg {
     margin: 10px;
     height: 168px;
     width: 90%;
     border-radius: 5px;
 }
-#reserve-btn{
-    margin-left:10px;
+
+#reserve-btn {
+    margin-left: 10px;
     margin-right: 15px;
-    width:90%;
+    width: 90%;
     background-color: #fb5849;
 }
 
 
 
-.blank{
+.blank {
     width: 100%;
 }
-footer{
+
+footer {
     background-color: #fb5849;
     width: 100%;
-    
+
 }
-.footer-items .col-lg-4{
-   display: flex;
-   justify-content: center;
-   /* align-items: center; */
-   /* text-align: center; */
+
+.footer-items .col-lg-4 {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* text-align: center; */
 }
-.social-icons{
+
+.social-icons {
     display: inline-block;
     display: flex;
     gap: 10px;
@@ -328,9 +355,3 @@ footer{
     list-style: none;
     align-items: center;
 }
-
-
-
-
-
-
