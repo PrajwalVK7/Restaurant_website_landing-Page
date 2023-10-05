@@ -19,16 +19,22 @@ $('.owl-carousel').owlCarousel({
 
 
 //
-var myLoader;
-function loader() {
-    myLoader = setTimeout(showPage, 1000)
-}
+// var myLoader;
+// function loader() {
+//     myLoader = setTimeout(showPage, 1000)
+// }
 
-function showPage() {
-    document.querySelector(".center-container").style.display = "none";
-    document.getElementById("container-main").style.display = "block";
-}
+// function showPage() {
+//     document.querySelector(".center-container").style.display = "none";
+//     document.getElementById("container-main").style.display = "block";
+// }
 
 //scroll
-document.documentElement.style.overflow = 'auto';
+
+
+  window.onload=function() {
+    document.querySelector(".center-container").style.display = "none";
+    document.getElementById("container-main").style.display = "block";
+  }
+  document.documentElement.style.overflow = 'auto';
   document.body.style.overflow = 'auto';
