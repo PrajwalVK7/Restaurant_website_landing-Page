@@ -1,8 +1,15 @@
+html,
 body {
     margin: 0px;
     padding: 0px;
     width: 100%;
-    background-color: #fb5849;
+    background-color: #ffffff;
+    /* overflow-x: hidden; */
+}
+
+.container {
+    margin-right: 0;
+    padding-right: 0;
 }
 
 .logo img {
@@ -16,13 +23,13 @@ body {
     letter-spacing: 1px;
 }
 
-/* header{
+header {
     position: fixed;
     width: 100%;
     left: 0;
     top: 0;
     z-index: 1000;
-} */
+}
 
 
 .left-container {
@@ -157,13 +164,13 @@ body {
 .gal-img {
     width: 100%;
     height: 100%;
+    filter: brightness(100%);
     -webkit-filter: brightness(100%);
 }
 
 .gal-img:hover {
-
+    filter: brightness(100%);
     -webkit-filter: brightness(40%);
-
 
 }
 
