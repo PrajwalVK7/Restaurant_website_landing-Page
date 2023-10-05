@@ -15,6 +15,7 @@ body {
     font-size: 18px;
     letter-spacing: 1px;
 }
+
 /* header{
     position: fixed;
     width: 100%;
@@ -91,16 +92,17 @@ body {
 }
 
 
-.abt-video{
+.abt-video {
     position: relative;
     text-align: center;
 
 }
-.play-btn{
+
+.play-btn {
     position: absolute;
-    bottom:50%;
+    bottom: 50%;
     left: 50%;
-    transform: translate(-50%,50%);
+    transform: translate(-50%, 50%);
     font-size: 35px;
 }
 
@@ -294,10 +296,82 @@ footer {
     list-style: none;
     align-items: center;
     text-decoration: none;
-    
+
 }
-.copyright{
+
+.copyright {
     text-decoration: none;
     font-style: normal;
     color: black;
+}
+
+
+
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #fb5849;
+}
+
+.lds-ripple {
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+
+.lds-ripple div {
+    position: absolute;
+    border: 5px solid #ffffff;
+    opacity: 1;
+    border-radius: 50%;
+    animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+
+.lds-ripple div:nth-child(2) {
+    animation-delay: -0.5s;
+}
+
+@keyframes lds-ripple {
+    0% {
+        top: 36px;
+        left: 36px;
+        width: 0;
+        height: 0;
+        opacity: 0;
+    }
+
+    4.9% {
+        top: 36px;
+        left: 36px;
+        width: 0;
+        height: 0;
+        opacity: 0;
+    }
+
+    5% {
+        top: 36px;
+        left: 36px;
+        width: 0;
+        height: 0;
+        opacity: 1;
+    }
+
+    100% {
+        top: 0px;
+        left: 0px;
+        width: 72px;
+        height: 72px;
+        opacity: 0;
+    }
 }
