@@ -28,7 +28,7 @@ function showPage() {
     document.querySelector(".center-container").style.display = "none";
     document.getElementById("container-main").style.display = "block";
 }
-// window.onload = function() {
-//     // Page has finished loading, hide the loading spinner and show the content
-//     document.querySelector(".center-container").style.display = "none";
-//   };
+
+//scroll
+document.documentElement.style.overflow = 'auto';
+  document.body.style.overflow = 'auto';
