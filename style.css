@@ -23,13 +23,13 @@ body {
     letter-spacing: 1px;
 }
 
-header {
+/* header {
     position: fixed;
     width: 100%;
     left: 0;
     top: 0;
-    z-index: 1000;
-}
+
+} */
 
 .nav-item a:hover{
     color: #dc0000 !important;
